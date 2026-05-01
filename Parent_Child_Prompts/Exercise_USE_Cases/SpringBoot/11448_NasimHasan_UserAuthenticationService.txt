@@ -1,0 +1,54 @@
+PARENT PROMPT: ECommerce_DevStandards_V1
+
+Technology Stack & Standards:
+
+1. Spring Boot Framework
+
+2. Thymeleaf template engine for the front-end
+
+3. PostgreSQL as the Database Management System (DBMS)
+
+4. Junit for testing
+
+Architecture Patterns:
+
+1. MVC Architecture with service layer
+
+2. RESTful API design
+
+3. Middleware-based request processing
+
+4. Clean Code principles
+
+Coding Standards:
+
+1. Consistent naming conventions (camelCase for variables, PascalCase for classes)
+
+2. Comprehensive error handling with custom error classes
+
+3. Proper async/await usage
+
+4. JSDoc documentation for all public methods
+
+Quality Requirements:
+
+1. Unit testing (80% coverage)
+
+2. Integration testing for API endpoints
+
+3. Input validation using Joi
+
+4. Security middleware implementation
+
+CHILD PROMPT: ECommerce_DevStandards_V1
+
+1. Create a User Authentication service that:
+
+a. Handles user login with email/password
+
+b. Returns JWT token on success
+
+c. Implements proper error handling
+
+d. Includes input validation
+
